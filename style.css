@@ -3,7 +3,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    max-width: 1600px;
 }
 
 /* Sheared style */
@@ -23,11 +22,28 @@ body{
     border: none;
 }
 
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+}
 
-/* navbar style */
+.sheared-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sheared-p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+    padding-top: 20px;
+}
+
+
+/* Navbar style */
 .navbar{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 padding: 10px;
 }
 
@@ -44,7 +60,12 @@ padding: 10px;
     color: #006A50;
 }
 
-/* banner style */
+.sing-in:hover{
+    background-color: #006A50;
+    color: white;
+}
+
+/* Banner style */
 .banner{
     background-color: #C6E4D6;
     display: flex;
@@ -67,4 +88,93 @@ padding: 10px;
     font-size: 56px;
     font-weight: bold;
     padding: 20px 0;
+}
+
+/* The Vision of Future Container */
+.future-container-card{
+    margin: 80px 0;
+}
+
+.future-cards{
+    display: flex;
+    gap: 24px;
+    padding: 32px 0;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.card-p{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.future-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.future-card2{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.future-card3{
+    background-color: #F7EBCF;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.btn-card1{
+    background-color: #5490F5;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-card2{
+    background-color: #09A15C;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-card3{
+    background-color: #FFC239;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-card1:hover{
+    background-color:white ;
+    color: black;
+}
+
+.btn-card2:hover{
+    background-color:white ;
+    color: black;
+}
+
+.btn-card3:hover{
+    background-color:white ;
+    color: black;
 }
