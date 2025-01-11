@@ -23,7 +23,7 @@ body{
 }
 
 .btn-primary:hover{
-    background-color: white;
+    background-color: antiquewhite;
     color: black;
 }
 
@@ -72,6 +72,7 @@ padding: 10px;
     justify-content: space-around;
     border-radius: 20px;
     padding: 80px 100px;
+    margin: 40px 0;
 }
 
 .banner-content{
@@ -110,7 +111,6 @@ padding: 10px;
 .card-p{
     font-size: 16px;
     font-weight: 400;
-    
 }
 
 .future-card1{
@@ -131,7 +131,7 @@ padding: 10px;
     padding: 32px;
 }
 
-.btn-card1{
+.btn-card1, .btn-card2, .btn-card3{
     background-color: #5490F5;
     color: white;
     font-size: 18px;
@@ -142,39 +142,7 @@ padding: 10px;
     margin-top: 20px;
 }
 
-.btn-card2{
-    background-color: #09A15C;
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 6px;
-    padding: 10px 30px;
-    border: none;
-    margin-top: 20px;
-}
-
-.btn-card3{
-    background-color: #FFC239;
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 6px;
-    padding: 10px 30px;
-    border: none;
-    margin-top: 20px;
-}
-
-.btn-card1:hover{
-    background-color:white ;
-    color: black;
-}
-
-.btn-card2:hover{
-    background-color:white ;
-    color: black;
-}
-
-.btn-card3:hover{
+.btn-card1:hover, .btn-card2:hover, .btn-card3:hover{
     background-color:white ;
     color: black;
 }
@@ -200,6 +168,7 @@ padding: 10px;
 /* News */
 .news{
     padding: 40px 0;
+    margin: 40px 0;
 }
 
 .news-card1{
@@ -222,18 +191,11 @@ padding: 10px;
     padding-bottom: 15px;
 }
 
-.news-h{
+.news-h, .news-p{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
-    padding-top: 20px;
-}
-
-.news-p{
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(14, 14, 14, 0.7);
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .news-card2{
@@ -295,6 +257,31 @@ padding: 10px;
 }
 
 .donate-input{
+    margin: 20px 0;
+    padding: 10px 100px;
+    background-color: aliceblue;
+    border: none;
+    max-width: 1032px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+}
+
+/* Newsletter Section */
+.newsletter{
+    margin: 80px 0;
+    border-radius: 8px;
+    background-color: #C6E4D6;
+    max-height: 395px;
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.news-subs{
+    
+}
+
+.email-box{
     margin: 20px 0;
     padding: 10px 100px;
     background-color: aliceblue;
