@@ -17,7 +17,7 @@ body{
     color: white;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 10px 30px;
     border: none;
 }
@@ -183,10 +183,9 @@ padding: 10px;
 .quote{
     background-image: url('./assets/quote-bg.png');
     background-repeat: no-repeat;
-    /* background-position: top left; */
     border-radius: 10px;
-    background-color: white;
-    padding: 48px 24px;
+    background-color: aliceblue;
+    padding: 24px 24px 48px 12px ;
 }
 
 .quote-p{
@@ -196,4 +195,55 @@ padding: 10px;
 
 .quote-h{
     padding-top: 10px;
+}
+
+/* News */
+.news{
+    padding: 40px 0;
+}
+
+.news-card1{
+    display: flex;
+    justify-items: auto;
+    gap: 32px;
+    background-color: aliceblue;
+    border-radius: 24px;
+    padding: 48px;
+    margin-top: 40px;
+
+}
+
+.card-img{
+    border-radius: 24px;
+}
+
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.news-h{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    padding-top: 20px;
+}
+
+.news-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 25px 0;
+}
+
+.news-card2{
+    display: flex;
+    justify-items: auto;
+    gap: 32px;
+    background-color: aliceblue;
+    border-radius: 24px;
+    padding: 48px;
+    margin-top: 40px;
+
 }
