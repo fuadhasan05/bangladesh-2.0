@@ -294,7 +294,8 @@ body {
 
 .email-box {
     margin: 20px -4px 20px 0;
-    padding: 12px 100px;
+    padding: 10px 100px;
+    font-size: 18px;
     background-color: aliceblue;
     border: none;
     max-width: 1032px;
